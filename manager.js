@@ -1,12 +1,12 @@
 
 
 class Manager {
-    constructor(name, id, email, github, role) {
+    constructor(name, id, email, officeNumber, role) {
         this.name = name
         this.id = id
         this.email = email
         this.role = "Manager";
-        this.github = github;
+        this.officeNumber = officeNumber;
       }
     }
 

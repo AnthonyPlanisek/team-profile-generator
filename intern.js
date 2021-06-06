@@ -1,10 +1,10 @@
 class Intern {
-    constructor(name, id, email, github, role) {
+    constructor(name, id, email, school, role) {
         this.name = name
         this.id = id
         this.email = email
         this.role = "Intern";
-        this.github = github;
+        this.school = school;
       }
     }
 
